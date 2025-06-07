@@ -1,0 +1,84 @@
+body, html {
+   height: 100%;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  background-image: url('../Assets/slide-07.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+}
+
+
+.signup-container {
+  height: 100vh;
+  background-image: url('../Assets/slide-07.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 430px;
+ background-color: #ffffff;
+}
+
+.nav-item {
+font-weight: 600; 
+}
+.material-symbols-outlined {
+ font-weight: 500;  
+}
+.nav-item .nav-link:hover {
+  color: blue;
+}
+.material-symbols-outlined:hover {
+ color: blue;
+}
+
+
+.content {
+  font-size: 30px;
+  color:rgb(29, 29, 104);
+}
+.text {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(29, 29, 104);
+}
+
+ .carousel-caption {
+  position: absolute;      
+  top: 30%;                
+  left: 5%;               
+  right: auto;             
+  text-align: left;       
+  max-width: 35%;          
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.custom-btn:hover {
+  background-color: #db892c; /* darker shade */
+  border-color: #0056b3;
+  color: #fff;
+}
+
