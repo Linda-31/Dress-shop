@@ -30,7 +30,7 @@ function Shop() {
               <div className="card-body">
                 <h5 className="card-title " style={{ color: 'grey', fontSize: '16px' }}>{product.title}</h5>
                  <p className="card-text" style={{ color: 'grey', fontSize: '16px' }}><strong>${product.price}</strong></p>
-              </div>
+                             </div>
             </div>
           </div>
         ))}
