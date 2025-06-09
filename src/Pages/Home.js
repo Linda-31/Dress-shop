@@ -6,7 +6,9 @@ function Home () {
     return (
         <div>
          <Slide />
+         <h2 className="mb-4">PRODUCT OVERVIEW</h2>
          <Footer />
+        
         </div>
     );
 }
