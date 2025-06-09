@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dress-shop/static/css/main.ca0c7532.css",
+    "main.js": "/Dress-shop/static/js/main.1ab2fc90.js",
+    "static/js/453.ed3810f9.chunk.js": "/Dress-shop/static/js/453.ed3810f9.chunk.js",
+    "static/media/slide-07.jpg": "/Dress-shop/static/media/slide-07.45f2da49d7e10a1efd1b.jpg",
+    "index.html": "/Dress-shop/index.html",
+    "main.ca0c7532.css.map": "/Dress-shop/static/css/main.ca0c7532.css.map",
+    "main.1ab2fc90.js.map": "/Dress-shop/static/js/main.1ab2fc90.js.map",
+    "453.ed3810f9.chunk.js.map": "/Dress-shop/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca0c7532.css",
+    "static/js/main.1ab2fc90.js"
+  ]
+}
