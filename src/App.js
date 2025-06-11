@@ -11,12 +11,13 @@ import Header from './component/header';
 import Contact from './Pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Footer from './component/footer';
 
 function App() {
   return (
     <Router>
     <Header /> 
-       <Routes>
+            <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
@@ -26,7 +27,8 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-    </Router>
+       <Footer />
+       </Router>
   );
 }
 

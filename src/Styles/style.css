@@ -1,5 +1,5 @@
 body, html {
-   height: 100%;
+  height: 100%;
   background-color: #f8f9fa;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -76,12 +76,6 @@ font-weight: 600;
 }
 
 
-.custom-btn:hover {
-  background-color: #db892c;
-  border-color: #0056b3;
-  color: #fff;
-}
-
 .hover-container {
   overflow: hidden;
 }
@@ -103,3 +97,119 @@ font-weight: 600;
 .hover-container:hover .overlay {
   opacity: 1;
 }
+
+ul.list-unstyled li a.footer-link {
+ color:rgb(184, 177, 177);
+ font-size: 14px;
+ text-decoration: none;
+}
+ul.list-unstyled li a.footer-link:hover {
+ color:rgb(127, 157, 238);
+ }
+
+ .footer-text {
+  color:rgb(184, 177, 177);
+   font-size: 14px;
+ }
+ .footer-heading {
+  font-weight: bold;
+ }
+
+ .favorite-icon{
+  color:rgb(184, 177, 177);     
+  cursor: pointer;
+  transition: color 0.3s ease;
+  position: absolute;
+  bottom: 40px;
+  right: 10px;
+ }
+.footer-box {
+  padding:40px;
+  position: relative;
+  top: 30px;
+}
+
+.input-underline {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  padding: 8px 4px;
+  width: 100%;
+  color: #fff; 
+}
+
+.input-underline:focus {
+  outline: none;
+  border-bottom: 2px solid #007bff; 
+}
+
+.banner .banner-title{
+  color:black;
+   font-weight: 800;
+   font-size: 28px;
+}
+
+.custom-card {
+  width:100%;
+  height: 350px;       
+ border-radius: 8px;
+  margin-top:60px;
+ 
+}
+.custom-card :hover{
+  cursor:pointer;
+}
+.banner {
+  position:absolute;
+  top: 20px;
+  left:30px;
+}
+
+.home-title{
+  font-weight: 800;
+   margin-top:60px;
+  margin-left: 120px;
+}
+
+.shop-text {
+  color: grey;
+   font-size: 16px;
+   text-decoration: none;
+}
+.shop-text:hover{
+  color:black;
+  text-decoration: underline;
+}
+.search {
+  color: grey;
+  position:absolute;
+  right:120px;  
+  padding:10px;
+  height:50px;
+  width:120px;
+  border: 1px solid rgb(211, 208, 208); 
+  border-radius: 5px;
+  
+  
+  }
+.search:hover {
+  color: white;
+  background-color: rgb(31, 31, 226);
+  
+}
+
+.custom-icon{
+   vertical-align: middle; 
+   font-size: 22px;
+}
+
+.custom-icon:hover {
+  color: white;
+   
+}
+
+.about-text {
+    color: grey;
+   font-size: 16px;
+}
+
