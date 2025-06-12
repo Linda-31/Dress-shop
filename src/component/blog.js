@@ -7,14 +7,16 @@ function Blog(props) {
     <>
     <div className="row">
    {props.categories.map((category, index)=> (
-        <div className="col-12 col-md-4 mb-4" key={index}>
+        <div className="col-12 col-md-3 mb-4" key={index}>
        <div className="card custom-card">
+        <div className="image-container">
             <img
               src={category.image}
               className="card-img-top"
               alt={category.title}
             />
-            
+            <div className="blue-overlay"></div>
+            </div>
             <div className="banner">
               <h5 className="banner-title">{category.name}</h5>
               <p className="banner-text">{category.title}</p>

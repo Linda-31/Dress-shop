@@ -12,17 +12,19 @@ import Contact from './Pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './component/footer';
+import ProductDetail from './Pages/ProductDetail';
 
 function App() {
   return (
     <Router>
     <Header /> 
-            <Routes>
+       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
          <Route path="/Shop" element={<Shop />} />
           <Route path="/Features" element={<Features />} />
+           <Route path="/p/:id" element={<ProductDetail />} />
          <Route path="/Blog" element={<Blog />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />

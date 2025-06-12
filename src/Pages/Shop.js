@@ -2,6 +2,9 @@ import React from 'react';
 import "../Styles/style.css";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { selectProduct } from '../features/productSlice';
+import { useNavigate } from 'react-router-dom';
 
 function Shop() {
     const [products, setProducts] = useState([]);
@@ -20,6 +23,13 @@ function Shop() {
     const handleClick = () => {
     alert('product is added to the wishlist!');
     console.log("Product is added to the wishlist");
+  };
+ const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+    const handleView = (p) => {
+    dispatch(selectProduct(p));
+    navigate(`/p/${p.id}`);
   };
 
     return(
@@ -49,7 +59,7 @@ function Shop() {
             <div className="position-relative hover-container">
               <img src={product.image} className="card-img-top" alt={product.title} />
              <div className="overlay">
-             <button className="btn btn-light">Quick View</button>
+             <button className="btn btn-light"onClick={() => handleView(product)}>Quick View</button>
              </div>
              </div>
             <div className="card-body">

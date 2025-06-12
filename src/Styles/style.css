@@ -152,13 +152,26 @@ ul.list-unstyled li a.footer-link:hover {
 .custom-card {
   width:100%;
   height: 350px;       
- border-radius: 8px;
+  border-radius: 8px;
   margin-top:60px;
- 
+  margin-left: 120px;
 }
-.custom-card :hover{
-  cursor:pointer;
+
+.blue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.5); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
 }
+.image-container:hover .blue-overlay {
+  opacity: 1;
+  }
+
 .banner {
   position:absolute;
   top: 20px;
