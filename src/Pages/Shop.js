@@ -7,8 +7,10 @@ import { selectProduct } from '../features/productSlice';
 import { useNavigate } from 'react-router-dom';
 
 function Shop() {
-    const [products, setProducts] = useState([]);
-     const [showSearch, setShowSearch] = useState(false);
+     const [products, setProducts] = useState([]);
+     const [category, setCategory] = useState('all');
+
+ const [showSearch, setShowSearch] = useState(false);
   const toggleSearch = () => setShowSearch(!showSearch);
 
     useEffect(() => {
@@ -31,48 +33,51 @@ function Shop() {
     dispatch(selectProduct(p));
     navigate(`/p/${p.id}`);
   };
+  const filteredProducts = category === 'all'
+    ? products
+    : products.filter(product => product.category === category);
 
     return(
 <>
-  <div className="container mt-4" style={{ marginBottom: '80px' }}>
-  <div className="d-flex gap-2 flex-wrap">
-    <a className= "shop-text" href="#electronics" >All Products</a>
-    <a className= "shop-text" href="#clothing" >Women</a>
-    <a className= "shop-text" href="#home-kitchen" >Men</a>
-    <a className= "shop-text" href="#books" >Bag</a>
-    <a className= "shop-text" href="#sports" >Shoes</a>
-    <a className= "shop-text" href="#sports" >Watches</a>
-    <button  className= "search" type="button" onClick={toggleSearch} ><span className="material-symbols-outlined custom-icon">search</span> Search  </button>
+     <div className="container mt-4" style={{ marginBottom: '80px' }}>
+       <div className="d-flex gap-2 flex-wrap mb-4">
+        <button className="shop-text btn btn-link" onClick={() => setCategory('all')}>All Products</button>
+        <button className="shop-text btn btn-link" onClick={() => setCategory('women')}>Women</button>
+        <button className="shop-text btn btn-link" onClick={() => setCategory('men')}>Men</button>
+        <button className="shop-text btn btn-link" onClick={() => setCategory('bag')}>Bag</button>
+        <button className="shop-text btn btn-link" onClick={() => setCategory('shoe')}>Shoes</button>
+        <button className="shop-text btn btn-link" onClick={() => setCategory('watch')}>Watches</button>
+        <button  className= "search" type="button" onClick={toggleSearch} ><span className="material-symbols-outlined custom-icon">search</span> Search  </button>
       {showSearch && (
-        
-        <input type="text" className="form-control mt-3"placeholder="Search..."/>
+                <input type="text" className="form-control mt-3"placeholder="Search..."/>
       )}
-    </div>
-  </div>
-
-      
+      </div>
+</div>
+              
     <div className="container mt-4">
      <div className="row">
-        {products.map(product => (
+        {filteredProducts.map(product => (
           <div className="col-md-3 mb-4" key={product.id}>
             <div className="card h-100">
             <div className="position-relative hover-container">
               <img src={product.image} className="card-img-top" alt={product.title} />
              <div className="overlay">
-             <button className="btn btn-light"onClick={() => handleView(product)}>Quick View</button>
+             <button className="btn btn-light quick-view-btn"onClick={() => handleView(product)}>Quick View</button>
              </div>
              </div>
             <div className="card-body">
              <h5 className="card-title " style={{ color: 'grey', fontSize: '16px' }}>{product.title}</h5>
             <span class="material-symbols-outlined favorite-icon" onClick={handleClick}>favorite</span>
               <p className="card-text" style={{ color: 'grey', fontSize: '16px' }}><strong>${product.price}</strong></p>
+               <button className="btn btn-primary w-100 mt-2" > Add to Cart  </button>
             </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
+     </div>
 
+    
 </>
       );
 }

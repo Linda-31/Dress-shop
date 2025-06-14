@@ -5,7 +5,7 @@ function Header () {
     return (
     <div>
     <nav style={{margin:6}}   className="navbar navbar-expand-lg navbar-light bg-white px-4 py-2">
-    <img src="/images/logo3.png" alt="Dress Store Logo" height="80"  width="140" />
+    <img src="/images/logo3.png"  alt="Dress Store Logo" height="80"  width="140" />
 
        <button
         className="navbar-toggler"
@@ -25,9 +25,7 @@ function Header () {
              <NavLink className="nav-link" to="/Shop">Shop</NavLink>
             
           </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/Features">Features</NavLink>
-        </li>
+         
           <li className="nav-item">
             <NavLink className="nav-link" to="/Blog">Blog</NavLink>
             

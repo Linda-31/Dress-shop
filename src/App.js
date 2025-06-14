@@ -4,7 +4,6 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import Home from './Pages/Home';
 import Shop from './Pages/Shop';
-import Features from './Pages/Features';
 import Blog from './Pages/Blog';
 import About from './Pages/About';
 import Header from './component/header';
@@ -23,9 +22,8 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
          <Route path="/Shop" element={<Shop />} />
-          <Route path="/Features" element={<Features />} />
-           <Route path="/p/:id" element={<ProductDetail />} />
          <Route path="/Blog" element={<Blog />} />
+          <Route path="/p/:id" element={<ProductDetail />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>

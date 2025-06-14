@@ -1,121 +1,232 @@
 [
    
  {
-    "id": "1",
+    "id": 1,
     "title":"Esprit Ruffle Shirt",
     "price": "16.64",
+    "category": "women",
+    "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-01.jpg"
    
     },
 
 {
-    "id": "2",
+    "id": 2,
     "title":"Herschel supply",
     "price": "35.31",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-02.jpg"
    
     },
 
 {
-    "id": "3",
+    "id": 3,
     "title":"Only Check Trouser",
     "price": "25.50",
+     "category": "men",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-03.jpg"
    
     },
 
  {
-    "id": "4",
+    "id": 4,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-04.jpg"
    
     },
 
      {
-    "id": "5",
+    "id": 5,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-05.jpg"
    
     },
  {
-    "id": "6",
+    "id": 6,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "watch",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-06.jpg"
    
     },
      {
-    "id": "7",
+    "id": 7,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-07.jpg"
    
     },
      {
-    "id": "8",
+    "id": 8,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-08.jpg"
    
     },
      {
-    "id": "9",
+    "id": 9,
     "title":"Classic Trench Coat",
     "price": "75.00",
-    "image":"/images/product-09.jpg"
+     "category": "shoe",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/shoe1.jpg"
    
     },
      {
-    "id": "10",
+    "id": 10,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-10.jpg"
    
     },
      {
-    "id": "11",
+    "id": 11,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "men",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-11.jpg"
    
     },
      {
-    "id": "12",
+    "id": 12,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "belt",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-12.jpg"
    
     },
      {
-    "id": "13",
+    "id": 13,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-13.jpg"
    
     },
      {
-    "id": "14",
+    "id": 14,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-14.jpg"
    
     },
      {
-    "id": "15",
+    "id": 15,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "watch",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-15.jpg"
    
     },
      {
-    "id": "16",
+    "id": 16,
     "title":"Classic Trench Coat",
     "price": "75.00",
+     "category": "women",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
     "image":"/images/product-16.jpg"
    
+    },
+      {
+    "id": 17,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "bag",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/bag (1).jpg"
+   
+    },
+      {
+    "id": 18,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "bag",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/bag (2).jpg"
+   
+    },
+      {
+    "id": 19,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "bag",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/bag (3).jpg"
+   
+    },
+    {
+    "id": 20,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "bag",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/bag (4).jpg"
+   
+    },
+    {
+    "id": 21,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "shoe",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/shoe (4).jpg"
+   
+    },
+    {
+    "id": 22,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "shoe",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/shoe (5).jpg"
+   
+    },
+    {
+    "id": 23,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "shoe",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/shoe (6).jpg"
+   
+    },
+    {
+    "id": 24,
+    "title":"Classic Bag",
+    "price": "75.00",
+     "category": "shoe",
+     "description":"A perfect blend of modern chic and timeless femininity. Designed with delicate ruffle accents and a relaxed fit, this shirt adds effortless charm to both casual and dressy looks",
+    "image":"/images/shoe (5).jpg"
+   
     }
+    
+
+    
+     
+     
+     
+     
      
 
 ]
