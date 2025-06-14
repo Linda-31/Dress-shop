@@ -8,10 +8,12 @@ import Blog from './Pages/Blog';
 import About from './Pages/About';
 import Header from './component/header';
 import Contact from './Pages/Contact';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './component/footer';
 import ProductDetail from './Pages/ProductDetail';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
-         <Route path="/Shop" element={<Shop />} />
+         <Route path="/shop" element={<Shop />} />
          <Route path="/Blog" element={<Blog />} />
           <Route path="/p/:id" element={<ProductDetail />} />
         <Route path="/About" element={<About />} />

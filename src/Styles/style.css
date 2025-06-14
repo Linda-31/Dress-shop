@@ -253,3 +253,9 @@ ul.list-unstyled li a.footer-link:hover {
   border:none;
  transition: all 0.3s ease;
 }
+.btn.shop-button:hover{
+  background-color:  black;
+  color: white;
+  border:none;
+ transition: all 0.3s ease;
+}

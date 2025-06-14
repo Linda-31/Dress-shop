@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { selectProduct } from '../features/productSlice';
 import { useNavigate } from 'react-router-dom';
+import Filter from '../component/filter';
 
 function Shop() {
      const [products, setProducts] = useState([]);
@@ -26,6 +27,13 @@ function Shop() {
     alert('product is added to the wishlist!');
     console.log("Product is added to the wishlist");
   };
+  const actionClick = () => {
+    alert('product is added to the Cart!');
+    console.log("Product is added to the cart");
+  };
+
+
+
  const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -39,6 +47,7 @@ function Shop() {
 
     return(
 <>
+
      <div className="container mt-4" style={{ marginBottom: '80px' }}>
        <div className="d-flex gap-2 flex-wrap mb-4">
         <button className="shop-text btn btn-link" onClick={() => setCategory('all')}>All Products</button>
@@ -51,10 +60,11 @@ function Shop() {
       {showSearch && (
                 <input type="text" className="form-control mt-3"placeholder="Search..."/>
       )}
-      </div>
+      </div>  
 </div>
-              
-    <div className="container mt-4">
+   <div className="d-flex gap-3">
+   <Filter />
+   <div className="container ">
      <div className="row">
         {filteredProducts.map(product => (
           <div className="col-md-3 mb-4" key={product.id}>
@@ -69,14 +79,17 @@ function Shop() {
              <h5 className="card-title " style={{ color: 'grey', fontSize: '16px' }}>{product.title}</h5>
             <span class="material-symbols-outlined favorite-icon" onClick={handleClick}>favorite</span>
               <p className="card-text" style={{ color: 'grey', fontSize: '16px' }}><strong>${product.price}</strong></p>
-               <button className="btn btn-primary w-100 mt-2" > Add to Cart  </button>
+               <button className="btn btn-primary w-100 mt-2 shop-button" onClick={actionClick} > Add to Cart  </button>
             </div>
             </div>
           </div>
         ))}
       </div>
      </div>
+ </div>
 
+ 
+    
     
 </>
       );

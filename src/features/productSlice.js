@@ -8,8 +8,8 @@ const productSlice = createSlice({
   name: 'product',
   initialState,
   reducers: {
-    selectProduct: (state, action) => {
-      state.selectedProduct = action.payload;
+   selectProduct: (state, action) => {
+   state.selectedProduct = action.payload;
     },
   },
 });
